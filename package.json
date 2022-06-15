@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint .",
     "pod-install": "npx pod-install",
-    "postinstall": "npm run pod-install"
+    "postinstall": "node -e \"let myLibAsDep = !require('fs').existsSync('.git'); if (!myLibAsDep) process.exit(1);\" || npm run pod-install"
   },
   "dependencies": {
     "react": "17.0.2",
