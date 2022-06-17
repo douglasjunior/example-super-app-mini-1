@@ -12,5 +12,5 @@ const App: React.FC = () => {
     </NavigationContainer>
   );
 };
-// a b
+
 export default App;
