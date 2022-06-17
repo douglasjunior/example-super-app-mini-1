@@ -1,3 +1,3 @@
-import RootStackNavigator from './navigators/RootStackNavigator';
+import RootStackNavigator from './navigation/RootStackNavigator';
 
 export {RootStackNavigator};
