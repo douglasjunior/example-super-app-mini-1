@@ -1,4 +1,3 @@
-import {BottomTabNavigationProp} from '@react-navigation/bottom-tabs';
 import {
   NavigationProp,
   useNavigation as useReactNavigation,
@@ -12,8 +11,4 @@ export const useNavigation = () => {
 
 export const useNativeStackNavigation = () => {
   return useReactNavigation<NativeStackNavigationProp<NavigatorParamList>>();
-};
-
-export const useBottomTabNavigation = () => {
-  return useReactNavigation<BottomTabNavigationProp<NavigatorParamList>>();
 };
