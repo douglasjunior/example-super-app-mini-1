@@ -3109,7 +3109,7 @@ event-target-shim@^5.0.0, event-target-shim@^5.0.1:
 
 "example-super-app-context@git+https://github.com/douglasjunior/example-super-app-context.git":
   version "0.0.1"
-  resolved "git+https://github.com/douglasjunior/example-super-app-context.git#07099d849d571c5cfedf35c660c1023565a7ff97"
+  resolved "git+https://github.com/douglasjunior/example-super-app-context.git#654c112b408497f7e9e4b607ed95bed27190cfe2"
   dependencies:
     "@react-navigation/native" "6.0.10"
     "@react-navigation/native-stack" "6.6.1"
@@ -3120,7 +3120,7 @@ event-target-shim@^5.0.0, event-target-shim@^5.0.1:
 
 "example-super-app-tools@git+https://github.com/douglasjunior/example-super-app-tools.git":
   version "1.0.0"
-  resolved "git+https://github.com/douglasjunior/example-super-app-tools.git#32e197baecb99b19c5843e0b8c22829132bd128c"
+  resolved "git+https://github.com/douglasjunior/example-super-app-tools.git#6de0f393654d563b77f21bcfc6a13db3a2d93ecf"
   dependencies:
     chokidar "3.5.3"
     node-fetch "2.6.7"
